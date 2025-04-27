@@ -24,9 +24,9 @@ def get_db_connection(create_db=False):
     conn.close()
 
     return mysql.connector.connect(
-        host="mynewdatabase112233.c180wy622p1m.us-east-1.rds.amazonaws.com",
+        host="database-1.cvubqshuuhqa.us-east-1.rds.amazonaws.com",
         user="admin",
-        password="nuel1404",
+        password="laurentius232200410",
         database="get_go"
     )
 
